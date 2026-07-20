@@ -12,4 +12,4 @@ RUN apk update && apk upgrade &&\
     chmod +x index.js start.sh &&\
     npm install
 
-CMD ["node", "index.js"
+CMD ["node", "index.js"]
